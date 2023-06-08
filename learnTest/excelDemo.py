@@ -49,6 +49,38 @@ def get_contract_info_by_dev_id(dev_id, url_cur):
     else:
         return
 
+def get_city_info_by_dev_id(dev_id, url_cur):
+    paramsArr = []
+    params["resblock_id"] = dev_id
+    contract_nos = []
+    for key in params:
+        paramsArr.append(key + "=" + params[key])
+
+    url_cur = url_cur + "?" + "&".join(paramsArr)
+    try:
+        result = requests.get(url_cur)
+        # print("result" + result)
+    except Exception as e:
+        print("request contract is exception:", e)
+    resultJsonStr = result.json()
+    if resultJsonStr['errno'] != 0:
+        print("request contract is error!!!!!")
+    else:
+        data = resultJsonStr['data']
+        if data and data['records']:
+            records = data['records']
+            for record in records:
+                contract_nos.append(record['contract_no'])
+            print("dev_id=" + dev_id + ",contract_nos=" + contract_nos.__str__())
+        else:
+            print("request contract result.data is null ,dev_id=", dev_id)
+
+    # if result.json()[]
+    if contract_nos.__len__() > 0:
+        return contract_nos
+    else:
+        return
+
 
 def process_contract_info(ocInfoArr):
     for ocInfo in ocInfoArr:
@@ -102,6 +134,8 @@ def get_home_order_info_from_excle():
             ocInfo.cooperate_model = current_row[9]
             # 合同编号
             ocInfo.contract_nos = []
+            ocInfo.city_id = 0
+            ocInfo.city_name = ''
             if (
                     ocInfo.project_source == "城市业务-一赛道新房-客发导流" or ocInfo.project_source == "城市业务-一赛道新房-新代理导流") and ocInfo.subject_type == "开发商":
                 ocInfoArr.append(ocInfo)

@@ -1,7 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b597f14-5011-469f-ac55-be44fa991a84" name="Default Changelist" comment="python demo" />
+    <list default="true" id="0b597f14-5011-469f-ac55-be44fa991a84" name="Default Changelist" comment="python demo">
+      <change afterPath="$PROJECT_DIR$/data/link_console_contract_poseidon74e347f2-fae0-44be-9445-023ee5fc1914.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/link_console_contract_poseidon74e347f2-fae0-44be-9445-023ee5fc1914.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/link_console_contract_poseidon74e347f2-fae0-44be-9445-023ee5fc1914.xlsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/link_console_contract_poseidond8dce48c-c21d-4d4e-adf4-8a509ca639c6.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/wecom-temp-526213-803a77ed7b067d33ed1633e9eb79390a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnTest/devInfoLangChain.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnTest/knowledge_base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnTest/langChainTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnTest/excelDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/learnTest/excelDemo.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,8 +51,22 @@
       </list>
     </option>
   </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MfdkmOAaS1yeMX9TsxTr9Idpia" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -26,18 +74,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Applications/workSpace/pythonProgram/demo/data",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data" />
+      <recent name="$PROJECT_DIR$/learnTest" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.excelDemo">
+  <component name="RunManager" selected="Python.devInfoLangChain">
     <configuration name="baiduAPIDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -52,6 +110,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnTest/baiduAPIDemo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="devInfoLangChain" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learnTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnTest/devInfoLangChain.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -82,6 +162,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="langChainTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learnTest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnTest/langChainTest.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="sessions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -104,67 +206,24 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="spider-demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learnTest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnTest/spider-demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="webhookTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learnTest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnTest/webhookTest.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Python.devInfoLangChain" />
       <item itemvalue="Python.baiduAPIDemo" />
       <item itemvalue="Python.excelDemo" />
-      <item itemvalue="Python.spider-demo" />
-      <item itemvalue="Python.webhookTest" />
       <item itemvalue="Python.sessions" />
+      <item itemvalue="Python.langChainTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.devInfoLangChain" />
+        <item itemvalue="Python.langChainTest" />
         <item itemvalue="Python.excelDemo" />
         <item itemvalue="Python.sessions" />
         <item itemvalue="Python.baiduAPIDemo" />
-        <item itemvalue="Python.webhookTest" />
-        <item itemvalue="Python.spider-demo" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -193,7 +252,14 @@
       <workItem from="1684987292492" duration="2761000" />
       <workItem from="1684997202893" duration="3788000" />
       <workItem from="1685501553045" duration="12681000" />
-      <workItem from="1685588064746" duration="7033000" />
+      <workItem from="1685588064746" duration="7760000" />
+      <workItem from="1685635924573" duration="40000" />
+      <workItem from="1685671162040" duration="2287000" />
+      <workItem from="1685857017100" duration="498000" />
+      <workItem from="1685885790645" duration="1617000" />
+      <workItem from="1685929682319" duration="3717000" />
+      <workItem from="1686015661190" duration="591000" />
+      <workItem from="1686041262020" duration="29186000" />
     </task>
     <task id="LOCAL-00001" summary="python demo">
       <created>1685613092935</created>
@@ -202,103 +268,33 @@
       <option name="project" value="LOCAL" />
       <updated>1685613092935</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="python demo">
+      <created>1685613465453</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685613465453</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="python demo" />
     <option name="LAST_COMMIT_MESSAGE" value="python demo" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="448" y="118" key="#Project_Structure" timestamp="1684999409581">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="448" y="118" key="#Project_Structure/1920.57.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1684999409581" />
-    <state x="424" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1684998984832">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="424" y="199" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.57.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1684998984832" />
-    <state width="1469" height="466" key="DebuggerActiveHint" timestamp="1685599262641">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1469" height="466" key="DebuggerActiveHint/1920.57.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1685599262641" />
-    <state width="1336" height="466" key="DebuggerActiveHint/1920.82.1440.875/0.25.1920.1055@0.25.1920.1055" timestamp="1685541055295" />
-    <state x="836" y="441" key="Github.ShareDialog" timestamp="1685613194119">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="836" y="441" key="Github.ShareDialog/1920.57.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1685613194119" />
-    <state width="1878" height="321" key="GridCell.Tab.0.bottom" timestamp="1685600330407">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1398" height="259" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1685001877758" />
-    <state width="1878" height="321" key="GridCell.Tab.0.bottom/1920.57.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1685600330407" />
-    <state width="1878" height="321" key="GridCell.Tab.0.bottom/1920.82.1440.875/0.25.1920.1055@0.25.1920.1055" timestamp="1685543853129" />
-    <state width="1878" height="321" key="GridCell.Tab.0.center" timestamp="1685600330403">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1398" height="259" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1685001877757" />
-    <state width="1878" height="321" key="GridCell.Tab.0.center/1920.57.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1685600330403" />
-    <state width="1878" height="321" key="GridCell.Tab.0.center/1920.82.1440.875/0.25.1920.1055@0.25.1920.1055" timestamp="1685543853128" />
-    <state width="1878" height="321" key="GridCell.Tab.0.left" timestamp="1685600330402">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1398" height="259" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1685001877756" />
-    <state width="1878" height="321" key="GridCell.Tab.0.left/1920.57.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1685600330402" />
-    <state width="1878" height="321" key="GridCell.Tab.0.left/1920.82.1440.875/0.25.1920.1055@0.25.1920.1055" timestamp="1685543853127" />
-    <state width="1878" height="321" key="GridCell.Tab.0.right" timestamp="1685600330405">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1398" height="259" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1685001877758" />
-    <state width="1878" height="321" key="GridCell.Tab.0.right/1920.57.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1685600330405" />
-    <state width="1878" height="321" key="GridCell.Tab.0.right/1920.82.1440.875/0.25.1920.1055@0.25.1920.1055" timestamp="1685543853128" />
-    <state width="1878" height="408" key="GridCell.Tab.1.bottom" timestamp="1685599884443">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="408" key="GridCell.Tab.1.bottom/1920.57.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1685599884443" />
-    <state width="1878" height="408" key="GridCell.Tab.1.bottom/1920.82.1440.875/0.25.1920.1055@0.25.1920.1055" timestamp="1685599338441" />
-    <state width="1878" height="408" key="GridCell.Tab.1.center" timestamp="1685599884440">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="408" key="GridCell.Tab.1.center/1920.57.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1685599884440" />
-    <state width="1878" height="408" key="GridCell.Tab.1.center/1920.82.1440.875/0.25.1920.1055@0.25.1920.1055" timestamp="1685599338430" />
-    <state width="1878" height="408" key="GridCell.Tab.1.left" timestamp="1685599884439">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="408" key="GridCell.Tab.1.left/1920.57.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1685599884439" />
-    <state width="1878" height="408" key="GridCell.Tab.1.left/1920.82.1440.875/0.25.1920.1055@0.25.1920.1055" timestamp="1685599338417" />
-    <state width="1878" height="408" key="GridCell.Tab.1.right" timestamp="1685599884442">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1878" height="408" key="GridCell.Tab.1.right/1920.57.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1685599884442" />
-    <state width="1878" height="408" key="GridCell.Tab.1.right/1920.82.1440.875/0.25.1920.1055@0.25.1920.1055" timestamp="1685599338432" />
-    <state x="710" y="246" key="RollbackChangesDialog" timestamp="1685613056139">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="710" y="246" key="RollbackChangesDialog/1920.57.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1685613056139" />
-    <state x="469" y="176" key="SettingsEditor" timestamp="1685612833675">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="469" y="176" key="SettingsEditor/1920.57.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1685612833675" />
-    <state x="560" y="264" key="Vcs.Push.Dialog.v2" timestamp="1685613130282">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="560" y="264" key="Vcs.Push.Dialog.v2/1920.57.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1685613130282" />
-    <state x="658" y="297" width="776" height="486" key="find.popup" timestamp="1685592308020">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="658" y="297" width="776" height="486" key="find.popup/1920.57.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1685592308020" />
-    <state x="344" y="136" key="new project wizard" timestamp="1678162846134">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="344" y="136" key="new project wizard/1920.57.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1678162846134" />
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup" timestamp="1684998774097">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/1920.57.1440.900/0.0.1920.1080@0.0.1920.1080" timestamp="1683516317516" />
-    <state x="625" y="241" width="670" height="676" key="search.everywhere.popup/1920.82.1440.875/0.0.1920.1080@0.0.1920.1080" timestamp="1684998774097" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -330,13 +326,38 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/learnTest/excelDemo.py</url>
-          <line>153</line>
+          <line>187</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/learnTest/excelDemo.py</url>
           <line>31</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/learnTest/langChainTest.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/learnTest/devInfoLangChain.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/learnTest/devInfoLangChain.py</url>
+          <line>55</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/learnTest/devInfoLangChain.py</url>
+          <line>23</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/learnTest/devInfoLangChain.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -347,11 +368,13 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/demo$spider_demo.coverage" NAME="spider-demo Coverage Results" MODIFIED="1683355200283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnTest" />
     <SUITE FILE_PATH="coverage/demo$baiduAPIDemo.coverage" NAME="baiduAPIDemo Coverage Results" MODIFIED="1685542238187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnTest" />
+    <SUITE FILE_PATH="coverage/demo$matchTest.coverage" NAME="matchTest Coverage Results" MODIFIED="1680057243233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnTest" />
+    <SUITE FILE_PATH="coverage/demo$spider_demo.coverage" NAME="spider-demo Coverage Results" MODIFIED="1683355200283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnTest" />
+    <SUITE FILE_PATH="coverage/demo$langChainTest.coverage" NAME="langChainTest Coverage Results" MODIFIED="1686118526220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnTest" />
+    <SUITE FILE_PATH="coverage/demo$devInfoLangChain.coverage" NAME="devInfoLangChain Coverage Results" MODIFIED="1686224569778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnTest" />
     <SUITE FILE_PATH="coverage/demo$sessions.coverage" NAME="sessions Coverage Results" MODIFIED="1685599204558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/requests" />
     <SUITE FILE_PATH="coverage/demo$excelDemo.coverage" NAME="excelDemo Coverage Results" MODIFIED="1685599884409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnTest" />
-    <SUITE FILE_PATH="coverage/demo$matchTest.coverage" NAME="matchTest Coverage Results" MODIFIED="1680057243233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnTest" />
     <SUITE FILE_PATH="coverage/demo$webhookTest.coverage" NAME="webhookTest Coverage Results" MODIFIED="1683516908394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnTest" />
   </component>
 </project>
