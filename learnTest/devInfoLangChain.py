@@ -1,44 +1,36 @@
 import os
-import pytesseract
-from PIL import Image
-from langchain.embeddings.openai import OpenAIEmbeddings
-from langchain.vectorstores import Chroma
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.chains import ConversationalRetrievalChain
-from langchain import OpenAI
-from langchain.document_loaders import UnstructuredWordDocumentLoader, CSVLoader, UnstructuredFileLoader
-from langchain.chains import RetrievalQA
-from langchain.document_loaders.image import UnstructuredImageLoader
 
-from langchain.chat_models import ChatOpenAI
+from langchain import OpenAI
+from langchain.chains import RetrievalQA
+from langchain.document_loaders import UnstructuredFileLoader
+from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.prompts.chat import (
     ChatPromptTemplate,
     SystemMessagePromptTemplate,
     HumanMessagePromptTemplate
 )
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.vectorstores import Chroma
 
-#
-image = Image.open(
-    "/Applications/workSpace/pythonProgram/demo/data/wecom-temp-526213-803a77ed7b067d33ed1633e9eb79390a.jpg")
-
-text = pytesseract.image_to_string(image)
-
-print(text)
-
+data_path = "/Applications/workSpace/pythonProgram/demo/data/"
+file_name = "link_console_contract_poseidon74e347f2-fae0-44be-9445-023ee5fc1914.txt"
+file_path = data_path + file_name
 BASE_DIR = "/Applications/workSpace/pythonProgram/demo"
+vector_path = data_path + "vector" + file_name
 # openAI的Key
-os.environ["OPENAI_API_KEY"] = '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'
-
+# os.environ["OPENAI_API_KEY"] = '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'
+os.environ["OPENAI_API_KEY"] = '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'
 # 导入文本text
-# loader = UnstructuredFileLoader("/Applications/workSpace/pythonProgram/demo/data/link_console_contract_poseidon74e347f2-fae0-44be-9445-023ee5fc1914.txt")
+loader = UnstructuredFileLoader(
+    file_path)
 # 导入文本doc
 # loader = UnstructuredWordDocumentLoader("")
 # 导入csv
 # loader = CSVLoader(
 #     BASE_DIR + "/data/link_console_contract_poseidon74e347f2-fae0-44be-9445-023ee5fc1914.txt")
 # 导入image
-loader = UnstructuredImageLoader(
-    "/Applications/workSpace/pythonProgram/demo/data/wecom-temp-526213-803a77ed7b067d33ed1633e9eb79390a.jpg")
+# loader = UnstructuredImageLoader(
+#     "/Applications/workSpace/pythonProgram/demo/data/wecom-temp-526213-803a77ed7b067d33ed1633e9eb79390a.jpg")
 
 # 将文本转成 Document 对象
 document = loader.load()
@@ -46,8 +38,8 @@ print(f'documents:{len(document)}')
 
 # 初始化文本分割器
 text_splitter = RecursiveCharacterTextSplitter(
-    chunk_size=50,
-    chunk_overlap=10
+    chunk_size=200,
+    chunk_overlap=30
 )
 
 # 分割  documents
@@ -57,9 +49,12 @@ print(f'documents:{len(documents)}')
 
 # 初始化 openai embeddings
 embeddings = OpenAIEmbeddings()
-
+vector_store = None
 # 将数据存入向量存储
-vector_store = Chroma.from_documents(documents, embeddings)
+if os.path.exists(vector_path):
+    vector_store = Chroma(persist_directory=vector_path, embedding_function=embeddings)
+else:
+    vector_store = Chroma.from_documents(documents, embeddings, persist_directory=vector_path)
 # 通过向量存储初始化检索器
 retriever = vector_store.as_retriever(search_kwargs={"k": 2})
 

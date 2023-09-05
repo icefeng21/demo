@@ -22,19 +22,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b597f14-5011-469f-ac55-be44fa991a84" name="Default Changelist" comment="python demo">
-      <change afterPath="$PROJECT_DIR$/data/link_console_contract_poseidon74e347f2-fae0-44be-9445-023ee5fc1914.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/link_console_contract_poseidon74e347f2-fae0-44be-9445-023ee5fc1914.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/link_console_contract_poseidon74e347f2-fae0-44be-9445-023ee5fc1914.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/link_console_contract_poseidond8dce48c-c21d-4d4e-adf4-8a509ca639c6.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/wecom-temp-526213-803a77ed7b067d33ed1633e9eb79390a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnTest/devInfoLangChain.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnTest/knowledge_base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learnTest/langChainTest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0b597f14-5011-469f-ac55-be44fa991a84" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/learnTest/crewlBook.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnTest/htmlGetTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learnTest/requestTest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learnTest/excelDemo.py" beforeDir="false" afterPath="$PROJECT_DIR$/learnTest/excelDemo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnTest/devInfoLangChain.py" beforeDir="false" afterPath="$PROJECT_DIR$/learnTest/devInfoLangChain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learnTest/file_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/learnTest/file_demo.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,37 +73,38 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Applications/workSpace/pythonProgram/demo/data",
+    "last_opened_file_path": "/Applications/workSpace/pythonProgram/demo/learnTest/file",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/learnTest/file" />
       <recent name="$PROJECT_DIR$/data" />
       <recent name="$PROJECT_DIR$/learnTest" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.devInfoLangChain">
-    <configuration name="baiduAPIDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.crewlBook">
+    <configuration name="crewlBook" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.6" />
+      <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learnTest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnTest/baiduAPIDemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnTest/crewlBook.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,7 +135,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="excelDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="file_demo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,7 +148,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnTest/excelDemo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnTest/file_demo.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,7 +157,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="langChainTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="htmlGetTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,7 +170,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnTest/langChainTest.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnTest/htmlGetTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,7 +179,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sessions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="requestTest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -192,12 +187,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/requests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learnTest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/requests/sessions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learnTest/requestTest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,19 +202,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.crewlBook" />
+      <item itemvalue="Python.htmlGetTest" />
+      <item itemvalue="Python.requestTest" />
+      <item itemvalue="Python.file_demo" />
       <item itemvalue="Python.devInfoLangChain" />
-      <item itemvalue="Python.baiduAPIDemo" />
-      <item itemvalue="Python.excelDemo" />
-      <item itemvalue="Python.sessions" />
-      <item itemvalue="Python.langChainTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.crewlBook" />
+        <item itemvalue="Python.requestTest" />
+        <item itemvalue="Python.htmlGetTest" />
         <item itemvalue="Python.devInfoLangChain" />
-        <item itemvalue="Python.langChainTest" />
-        <item itemvalue="Python.excelDemo" />
-        <item itemvalue="Python.sessions" />
-        <item itemvalue="Python.baiduAPIDemo" />
+        <item itemvalue="Python.file_demo" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +254,12 @@
       <workItem from="1685885790645" duration="1617000" />
       <workItem from="1685929682319" duration="3717000" />
       <workItem from="1686015661190" duration="591000" />
-      <workItem from="1686041262020" duration="29186000" />
+      <workItem from="1686041262020" duration="29982000" />
+      <workItem from="1686534482174" duration="163000" />
+      <workItem from="1686534662056" duration="18319000" />
+      <workItem from="1686714118475" duration="6912000" />
+      <workItem from="1693467843540" duration="1399000" />
+      <workItem from="1693797272893" duration="15518000" />
     </task>
     <task id="LOCAL-00001" summary="python demo">
       <created>1685613092935</created>
@@ -275,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685613465453</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="python demo">
+      <created>1686229611357</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1686229611357</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,40 +348,65 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/learnTest/devInfoLangChain.py</url>
-          <line>43</line>
-          <option name="timeStamp" value="22" />
+          <line>58</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/learnTest/devInfoLangChain.py</url>
-          <line>55</line>
-          <option name="timeStamp" value="24" />
+          <url>file://$PROJECT_DIR$/learnTest/requestTest.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/learnTest/devInfoLangChain.py</url>
-          <line>23</line>
-          <option name="timeStamp" value="25" />
+          <url>file://$PROJECT_DIR$/learnTest/htmlGetTest.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/learnTest/devInfoLangChain.py</url>
-          <line>25</line>
-          <option name="timeStamp" value="26" />
+          <url>file://$PROJECT_DIR$/learnTest/requestTest.py</url>
+          <line>44</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/learnTest/crewlBook.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/learnTest/crewlBook.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/learnTest/crewlBook.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/learnTest/crewlBook.py</url>
+          <line>24</line>
+          <option name="timeStamp" value="41" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
+        <watch expression="etree.tostring(data)" language="Python" />
         <watch expression="response.json()" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/demo$file_demo.coverage" NAME="file_demo Coverage Results" MODIFIED="1686551913123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnTest" />
+    <SUITE FILE_PATH="coverage/demo$crewlBook.coverage" NAME="crewlBook Coverage Results" MODIFIED="1693832412403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnTest" />
     <SUITE FILE_PATH="coverage/demo$baiduAPIDemo.coverage" NAME="baiduAPIDemo Coverage Results" MODIFIED="1685542238187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnTest" />
     <SUITE FILE_PATH="coverage/demo$matchTest.coverage" NAME="matchTest Coverage Results" MODIFIED="1680057243233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnTest" />
     <SUITE FILE_PATH="coverage/demo$spider_demo.coverage" NAME="spider-demo Coverage Results" MODIFIED="1683355200283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnTest" />
     <SUITE FILE_PATH="coverage/demo$langChainTest.coverage" NAME="langChainTest Coverage Results" MODIFIED="1686118526220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnTest" />
-    <SUITE FILE_PATH="coverage/demo$devInfoLangChain.coverage" NAME="devInfoLangChain Coverage Results" MODIFIED="1686224569778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnTest" />
+    <SUITE FILE_PATH="coverage/demo$devInfoLangChain.coverage" NAME="devInfoLangChain Coverage Results" MODIFIED="1686715869459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnTest" />
+    <SUITE FILE_PATH="coverage/demo$requestTest.coverage" NAME="requestTest Coverage Results" MODIFIED="1693821685185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnTest" />
     <SUITE FILE_PATH="coverage/demo$sessions.coverage" NAME="sessions Coverage Results" MODIFIED="1685599204558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/requests" />
     <SUITE FILE_PATH="coverage/demo$excelDemo.coverage" NAME="excelDemo Coverage Results" MODIFIED="1685599884409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnTest" />
     <SUITE FILE_PATH="coverage/demo$webhookTest.coverage" NAME="webhookTest Coverage Results" MODIFIED="1683516908394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnTest" />
+    <SUITE FILE_PATH="coverage/demo$htmlGetTest.coverage" NAME="htmlGetTest Coverage Results" MODIFIED="1693818544707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/learnTest" />
   </component>
 </project>
